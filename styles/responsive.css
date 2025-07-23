@@ -1,0 +1,9 @@
+@media screen and (min-width:768px){
+    .wrap .title h1 {font-weight:800; font-size:1.875rem;}
+    .wrap .title p {font-size:1rem;}
+    .wrap .list_wrap .write #work {width:85%; height:40px; text-align:center; font-size:1rem;}
+    .wrap .list_wrap .write #add {width:15%; height:40px; background-color:#000; color:#fff; font-size:1rem;}
+    .wrap .list_wrap .list li span {
+        min-width:335px; border-bottom:1px solid #000; height:30px;
+    }
+}

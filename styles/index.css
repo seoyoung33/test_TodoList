@@ -1,0 +1,39 @@
+body {background-color:#ffde10;}
+main {
+    background:url(../images/background2.png);
+    width:100%; height:100vh;
+    padding:50px 15px;
+}
+.wrap {
+    width:410px; height:100vh;
+    margin:0 auto;
+}
+.wrap .title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:end;
+    padding:10px 0; border-bottom:1px solid #000;
+}
+.wrap .title h1 {font-weight:800; font-size:1.563rem;}
+.wrap .title p {font-size:0.875rem;}
+.wrap .list_wrap {}
+.wrap .list_wrap .write {
+    margin:50px 0; display:flex; flex-flow:row nowrap; gap:10px;
+}
+.wrap .list_wrap .write * {border-radius:5px;}
+.wrap .list_wrap .write #work {width:90%; height:40px; text-align:center; font-size:0.875rem;}
+.wrap .list_wrap .write #add {width:10%; height:40px; background-color:#000; color:#fff; font-size:0.875rem;}
+.wrap .list_wrap .write #add:hover {background-color:#CAFFB8; color:#000;}
+.wrap .list_wrap .list {
+    display:flex; flex-flow:column nowrap; gap:20px;
+}
+.wrap .list_wrap .list li {
+    width:100%;
+    display:flex; flex-flow:row nowrap; justify-content:space-between; gap:20px;}
+.wrap .list_wrap .list li .list_all {}
+.wrap .list_wrap .list li span {
+    min-width:335px; border-bottom:1px solid #000; height:30px; width:100%;
+}
+.wrap .list_wrap .list li button[name=delete] {
+    width:15px; height:15px;
+    border:1px solid #000; border-radius:3px; font-size:0.75rem;
+}
+.wrap .list_wrap .list li button[name=delete]:hover {background-color:#000; color:#fff;}
